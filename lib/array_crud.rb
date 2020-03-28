@@ -10,6 +10,7 @@ array = ["wow", "I", "am", "really", "learning"]
 element = "arrays!"
 
 def add_element_to_end_of_array(array, element)
+  element = "arrays!"
   array << element
   puts array.inspect
 end
